@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 094e768e35f766046bc8b722e66177cf, type: 3}
+  m_Name: SpeedBooster
+  m_EditorClassIdentifier: 
+  powerupName: SpeedBoost
+  powerupPrefab: {fileID: 2605555559150292815, guid: 8f4da5ce1b2349745b1f79b06ffd5153, type: 3}
+  powerupDescription: Boosts Speed
+  speedBooster: 10
+  bulletStrength: 0
+  jumpBooster: 0
