@@ -6,6 +6,7 @@ namespace Visitor.Pattern{
     public interface IVisitor{
         void Visit(JumpBoost jumpBoost);
         void Visit(SpeedBoost speedBoost);
+        void Visit(ShootingBehaviour shooting);
     }
 
     public interface IPlayerElement{

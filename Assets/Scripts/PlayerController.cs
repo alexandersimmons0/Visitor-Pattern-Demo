@@ -9,6 +9,7 @@ namespace Visitor.Pattern{
         void Start(){
             _playerElements.Add(gameObject.AddComponent<JumpBoost>());
             _playerElements.Add(gameObject.AddComponent<SpeedBoost>());
+            _playerElements.Add(gameObject.AddComponent<ShootingBehaviour>());
         }
 
         public void Accept(IVisitor visitor){

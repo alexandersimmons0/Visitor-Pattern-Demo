@@ -23,9 +23,11 @@ namespace Visitor.Pattern{
         }
 
         public void Visit(SpeedBoost speedBoost){
-            float boost = speedBoost.speedStrength += speedBooster;
-            //speedBoost.speedStrength += boost;
-            Debug.Log("boosted speed " + boost);       
+            float boost = speedBoost.speedStrength += speedBooster;      
+        }
+
+        public void Visit(ShootingBehaviour shooting){
+            float strength = shooting.bulletPower += bulletStrength;
         }
     }
 }

@@ -28,7 +28,7 @@ namespace Visitor.Pattern{
         }
 
         void OnGUI(){
-            GUI.Label(new Rect(5, 10, 200, 20), "Speed: " + speedStrength);
+            GUI.Label(new Rect(5, 15, 200, 20), "Speed: " + speedStrength);
         }
     }
 }
